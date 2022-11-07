@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -I..\..\..\workspace\Coroutines\FreeRTOS -I..\..\..\workspace\Coroutines\FreeRTOS\Include -I..\..\..\workspace\Croutines_2\cmsis_boot -I..\..\..\workspace\Croutines_2\cmsis -I..\..\..\workspace -I..\..\..\workspace\Coroutines -I..\..\..\workspace\Croutines_2 -I..\..\..\workspace\Coroutines\FreeRTOS\Portable -I..\..\..\workspace\Croutines_2\cmsis_lib\include -I..\..\..\workspace\Croutines_2\cmsis_lib">
+      <target file="stream_buffer.o" lastModified="184536d825e">
+         <source file="..\..\..\..\Coroutines\FreeRTOS\Source\stream_buffer.c" lastModified="17de2191390"/>
+      </target>
+      <target file="queue.o" lastModified="184536d80fc">
+         <source file="..\..\..\..\Coroutines\FreeRTOS\Source\queue.c" lastModified="17de2191390"/>
+      </target>
+      <target file="timers.o" lastModified="184536d7b3c">
+         <source file="..\..\..\..\Coroutines\FreeRTOS\Source\timers.c" lastModified="17de2191390"/>
+      </target>
+      <target file="heap_2.o" lastModified="184536d848d">
+         <source file="..\..\..\..\Coroutines\FreeRTOS\Source\heap_2.c" lastModified="17de2191390"/>
+      </target>
+      <target file="startup_stm32f30x.o" lastModified="184536d815e">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="184536c4a9a"/>
+      </target>
+      <target file="list.o" lastModified="184536d7e4f">
+         <source file="..\..\..\..\Coroutines\FreeRTOS\Source\list.c" lastModified="17de2191390"/>
+      </target>
+      <target file="event_groups.o" lastModified="184536d83e4">
+         <source file="..\..\..\..\Coroutines\FreeRTOS\Source\event_groups.c" lastModified="17de2191390"/>
+      </target>
+      <target file="croutine.o" lastModified="184536d830a">
+         <source file="..\..\..\..\Coroutines\FreeRTOS\Source\croutine.c" lastModified="17de2191390"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="184536d77bc">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="184536c4a8e"/>
+      </target>
+      <target file="stm32f30x_gpio.o" lastModified="184536d7898">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="184536c4a57"/>
+      </target>
+      <target file="main.o" lastModified="184536d7a40">
+         <source file="..\..\..\main.c" lastModified="184536d7079"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="184536d7d89">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="184536c4ab9"/>
+      </target>
+      <target file="tasks.o" lastModified="184536d7cd5">
+         <source file="..\..\..\..\Coroutines\FreeRTOS\Source\tasks.c" lastModified="17de2191390"/>
+      </target>
+   </processor>
+</history>
